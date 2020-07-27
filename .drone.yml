@@ -1,0 +1,10 @@
+---
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: backend
+  image: ubuntu:focal
+  commands:
+  - echo 'Hello World'
